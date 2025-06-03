@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import SingleProduct from "./pages/home/SingleProduct";
 import Home from "./pages/home/Home";
-import Jewel from "./pages/jewel/jewel";
+import Jewel from "./pages/jewel/Jewel";
 import JewelProduct from "./pages/jewel/JewelProduct";
 import Clothes from "./pages/clothes/Clothes";
 import ClothesProduct from "./pages/clothes/ClothesProduct";
