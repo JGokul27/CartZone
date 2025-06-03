@@ -17,7 +17,6 @@ const Footer = () => {
             </Link>
             <p className="my-8 text-Black/75">
             “Stay on top of the latest fashion trends with our weekly newsletter. Sign up now and receive 10% off your first purchase.”
-            <br />“Free shipping on orders over $50. Shop now and enjoy hassle-free delivery right to your doorstep.”
             </p>
             <div className="flex items-center gap-6">
               <FaFacebookF className="w-5 h-5 cursor-pointer hover:text-orange-500" />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaSearch, FaShoppingBag, FaTimes, FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import ThemeBtn from './ThemeBtn';
 
 
 function Navbar() {
@@ -10,8 +11,8 @@ function Navbar() {
         setMenuOpen(!menuOpen)
     }
     const navItems = [
-        {title: "Jewelry & Accessories", path: '/'},
-        {title: "clothing & Shoes", path: '/'},
+        {title: "Jewelry & Accessories", path: '/jewel&access'},
+        {title: "clothing & Shoes", path: '/clothes'},
         {title: "Home & Living", path: '/'},
         {title: "Wedding & Party", path: '/'},
         {title: "Toys & Entertainment", path: '/'},
@@ -27,6 +28,7 @@ function Navbar() {
                 <a href="/" className='flex items-center gap-2'><FaUser/>Account</a>
                 <a href="/" className='flex items-center gap-2'><FaShoppingBag/>Shopping</a>
             </div>
+            <ThemeBtn/>
             {/* navbar for smaller width */}
         <div>
             <button onClick={toggleMenu}>

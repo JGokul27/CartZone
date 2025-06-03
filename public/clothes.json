@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+       "title":"Adicolor Classics Joggers",
+       "category": "Dress",
+       "price": 63.85,
+        "image":"/Images/products/image1.png",
+        "status": "Best Selers"
+    },
+    {
+        "id":21,
+       "title":"Skechers Mens Hillcrest",
+       "category": "Shoe",
+       "price": 32.68,
+        "image":"/Images/products/clothes/shoe1.jpg",
+        "status": "New Arriaval"
+    },
+    {
+        "id":3,
+       "title":"Geometric print Scarf",
+       "category": "Dress",
+       "price": 53.00,
+       "image":"/Images/products/image3.png",
+       "status": "Best Selers"
+    },
+    {
+        "id":4,
+       "title":"Yellow Reserved Hoodie",
+       "category": "Hoodies",
+       "price": 63.85,
+       "image":"/Images/products/image4.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":5,
+       "title":"Basic Dress Green",
+       "category": "Dress",
+       "price": 236.00,
+       "image":"/Images/products/image5.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":6,
+       "title":"Nike Air Zoom Pegasus",
+       "category": "Shoes",
+       "price": 198.00,
+       "image":"/Images/products/image6.png",
+       "status": "Best Selers"
+    },
+    {
+        "id":7,
+       "title":"Nike Repel Miler",
+       "category": "Hoodies",
+       "price": 120.50,
+       "image":"/Images/products/image7.png",
+       "status": "Best Selers"
+    },
+    {
+        "id":22,
+       "title":"Duramo 10 Shoes",
+       "category": "Shoes",
+       "price": 31.76,
+       "image":"/Images/products/clothes/shoe2.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":23,
+       "title":"BATA Men's William E.Uniform Shoe",
+       "category": "Shoes",
+       "price": 58.83,
+       "image":"/Images/products/clothes/shoe21.jpg",
+       "status": "New Arriaval"
+    },
+    {
+        "id":24,
+       "title":"Leather Police Shoes - Milansafety",
+       "category": "Shoes",
+       "price": 41.99,
+       "image":"/Images/products/clothes/shoe4.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":25,
+       "title":"TOTO SweatShirts Hoodies",
+       "category": "Hoodies",
+       "price": 22.74,
+       "image":"/Images/products/clothes/hoodie1.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":26,
+       "title":"Plain Hoodies For Men",
+       "category": "Hoodies",
+       "price": 30.54,
+       "image":"/Images/products/clothes/hoodie2.png",
+       "status": "New Arriaval"
+    }
+]

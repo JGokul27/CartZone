@@ -1,0 +1,97 @@
+[
+    {
+        "id":9,
+       "title":"Glaucia Gold Band",
+       "category": "Ring",
+       "price": 102.26,
+        "image":"/Images/products/Jewel/ring1.png",
+        "status": "Best Selers"
+    },
+    {
+        "id":10,
+       "title":"Echo Gold Bracelet",
+       "category": "Bracelet",
+       "price": 471.75,
+       "image":"/Images/products/Jewel/bracelet1.png",
+       "status": "Best Selers"
+    },
+    {
+        "id":11,
+       "title":"Layered Long necklace",
+       "category": "Necklace",
+       "price": 25.97,
+       "image":"/Images/products/Jewel/necklace1.png",
+       "status": "Best Selers"
+    },
+    {
+        "id":12,
+       "title":"Pink Floral jhumka",
+       "category": "Earring",
+       "price": 6.98,
+       "image":"/Images/products/Jewel/earring1.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":13,
+       "title":"Triumph Solitaire Ring",
+       "category": "Ring",
+       "price": 629.77,
+       "image":"/Images/products/Jewel/ring2.png",
+       "status": "New Arriaval"
+    },
+    {
+        "id":14,
+       "title":"Zircon Earring",
+       "category": "Earring",
+       "price": 48.00,
+       "image":"/Images/products/Jewel/earring2.jpg",
+       "status": "Best Selers"
+    },
+    {
+        "id":15,
+       "title":"Twisty Infinity Bracelet",
+       "category": "Bracelet",
+       "price": 516.76,
+       "image":"/Images/products/Jewel/bracelet2.jpg",
+       "status": "Best Selers"
+    },
+    {
+        "id":16,
+       "title":"Sterling Silver Bracelet",
+       "category": "Bracelet",
+       "price": 113.69,
+       "image":"/Images/products/Jewel/bracelet3.png"
+    },
+    {
+        "id":17,
+       "title":"Gery Gold Layered Earrings",
+       "category": "Earring",
+       "price": 67.97,
+       "image":"/Images/products/Jewel/earring3.jpg",
+       "status": "New Arriaval"
+    },
+    {
+        "id":18,
+       "title":"The Naveah Diamond Ring",
+       "category": "Ring",
+       "price": 98.95,
+       "image":"/Images/products/Jewel/ring3.jpg",
+       "status": "Best Selers"
+    },
+    {
+        "id":19,
+       "title":"The lavanya Mayuri Necklace",
+       "category": "Necklace",
+       "price": 756.87,
+       "image":"/Images/products/Jewel/necklace2.jpg",
+       "status": "Best Selers"
+    },
+    {
+        "id":20,
+       "title":"The Flutter And Floral Necklace",
+       "category": "Necklace",
+       "price": 295.12,
+       "image":"/Images/products/Jewel/necklace3.jpg"
+    }
+   
+]

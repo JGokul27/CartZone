@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { FaFilter } from 'react-icons/fa'
-import Cards from '../../components/Cards'
+import Cards from './Cards'
 
-const Product = () => {
+
+const Jewel = () => {
     const [products, setProducts] = useState([])
     const [filteredItems,setFilteredItems] = useState([])
     const [selectedCategory, setSelectedCategory] = useState("all")
@@ -10,7 +11,7 @@ const Product = () => {
     useEffect(()=>{
         const fetchData = async()=>{
             try{
-                const response = await fetch("/products.json")
+                const response = await fetch("/jewel.json")
                 const data = await response.json()
                 setProducts(data)
                 setFilteredItems(data)
@@ -57,19 +58,21 @@ const Product = () => {
         setFilteredItems(sortedItems)
     }
   return (
-    <div className='max-w-screen-2xl container mx-auto xl:px-28 px-4 mb-12'>
-        <h2 className='title'>Now Trending On CartZone! Hurry !!</h2>
+
+      <div className='max-w-screen-2xl container mx-auto xl:px-28 px-4 mt-40'>
+        <h2 className='title'>Jewels & Accessories</h2>
 
         {/* product cards */}
         
-        <div id='products'>
+        <div>
         <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8'>
             {/* btns */}
             <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
                 <button onClick={showAll}>All Products</button>
-                <button onClick={()=> filterItems("Dress")}>Clothing</button>
-                <button onClick={()=> filterItems("Hoodies")}>Hoodies</button>
-                <button onClick={()=> filterItems("Bag")}>Bag</button>
+                <button onClick={()=> filterItems("Ring")}>Ring</button>
+                <button onClick={()=> filterItems("Bracelet")}>Bracelet</button>
+                <button onClick={()=> filterItems("Necklace")}>Necklace</button>
+                <button onClick={()=> filterItems("Earring")}>Earring</button>
             </div>
 
             {/* sorting option */}
@@ -90,12 +93,11 @@ const Product = () => {
                 </select>
             </div>
         </div>
-
-
         <Cards filteredItems={filteredItems}/>
         </div>
     </div>
   )
 }
 
-export default Product
+
+export default Jewel

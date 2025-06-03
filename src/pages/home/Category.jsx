@@ -14,7 +14,8 @@ const Category = () => {
         <div className='flex items-center justify-around flex-wrap gap-5 py-5'>
             {
                 companyLogo.map((logo)=>(
-                    <div key={logo.id}><img src={logo.img} alt="" width="200px"height="100px"/></div>
+                    <div key={logo.id}><img src={logo.img} alt="" width="200px"height="100px" className='hover:scale-105
+                    transition-all duration-200'/></div>
                 ))
             }
         </div>

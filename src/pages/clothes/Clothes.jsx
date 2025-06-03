@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { FaFilter } from 'react-icons/fa'
-import Cards from '../../components/Cards'
+import Cards from './Cards'
 
-const Product = () => {
+
+const Clothes = () => {
     const [products, setProducts] = useState([])
     const [filteredItems,setFilteredItems] = useState([])
     const [selectedCategory, setSelectedCategory] = useState("all")
@@ -10,8 +11,9 @@ const Product = () => {
     useEffect(()=>{
         const fetchData = async()=>{
             try{
-                const response = await fetch("/products.json")
+                const response = await fetch("/clothes.json")
                 const data = await response.json()
+                console.log(data)
                 setProducts(data)
                 setFilteredItems(data)
             }catch(error){
@@ -57,19 +59,20 @@ const Product = () => {
         setFilteredItems(sortedItems)
     }
   return (
-    <div className='max-w-screen-2xl container mx-auto xl:px-28 px-4 mb-12'>
-        <h2 className='title'>Now Trending On CartZone! Hurry !!</h2>
+
+      <div className='max-w-screen-2xl container mx-auto xl:px-28 px-4 mt-40'>
+        <h2 className='title'>Clothing & Shoes</h2>
 
         {/* product cards */}
         
-        <div id='products'>
+        <div>
         <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8'>
             {/* btns */}
             <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
                 <button onClick={showAll}>All Products</button>
-                <button onClick={()=> filterItems("Dress")}>Clothing</button>
+                <button onClick={()=> filterItems("Dress")}>Dress</button>
                 <button onClick={()=> filterItems("Hoodies")}>Hoodies</button>
-                <button onClick={()=> filterItems("Bag")}>Bag</button>
+                <button onClick={()=> filterItems("Shoes")}>Shoes</button>
             </div>
 
             {/* sorting option */}
@@ -90,12 +93,11 @@ const Product = () => {
                 </select>
             </div>
         </div>
-
-
         <Cards filteredItems={filteredItems}/>
         </div>
     </div>
   )
 }
 
-export default Product
+
+export default Clothes
